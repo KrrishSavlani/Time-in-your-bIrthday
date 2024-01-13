@@ -9,12 +9,18 @@ int DD1 , MM1 , YYYY1 ;
 int DD2 , MM2 , YYYY2 ;
 
 
-printf("your birthdate :- %d %d %d  \n",DD1 ,MM1, YYYY1 );
+printf("Enter your birthdate and today date in form of DD MM YYYY " );
+
+printf("Your birthdate :- ");
 scanf(" %d %d %d " , &DD1 , &MM1 , &YYYY1);
+printf("%d %d %d  \n",DD1 ,MM1, YYYY1 );
 
 
-printf("Current date   :- %d %d %d\n" , DD2 ,MM2 , YYYY2 );
+
+printf("Current date :- ");
 scanf(" %d %d %d " , &DD2 ,&MM2 ,&YYYY2);
+printf("%d %d %d\n" , DD2 ,MM2 , YYYY2 );
+
 
 if( DD2 == DD1 && MM2 == MM1 )
    { printf("\n 🎉 WHISHING YOU A VERY HAPPY Birthday 🎉🎂") ;
