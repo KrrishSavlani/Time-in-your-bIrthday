@@ -11,15 +11,12 @@ int DD2 , MM2 , YYYY2 ;
 
 printf("Enter your birthdate and today date in form of DD MM YYYY \n");
 
-printf("Your birthdate :- ");
-scanf(" %d %d %d " , &DD1 ,&MM1 ,&YYYY1);
-
-
-
 
 printf("\nCurrent date :- ");
 scanf(" %d %d %d " , &DD2 ,&MM2 ,&YYYY2);
 
+printf("Your birthdate :- ");
+scanf(" %d %d %d " , &DD1 ,&MM1 ,&YYYY1);
 
 
 if( DD2 == DD1 && MM2 == MM1 )
