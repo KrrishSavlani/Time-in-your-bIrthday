@@ -17,7 +17,7 @@ scanf(" %d %d %d\n " , &DD1 , &MM1 , &YYYY1);
 
 
 
-printf("Current date :- ");
+printf("\nCurrent date :- ");
 scanf(" %d %d %d " , &DD2 ,&MM2 ,&YYYY2);
 
 
