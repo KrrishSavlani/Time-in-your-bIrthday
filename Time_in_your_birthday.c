@@ -65,12 +65,12 @@ else if (MM1 - MM2 > 1)
   }
      
     
-if (DD1 - DD2  == 1 && MM2 == MM1)
+if (DD2 - DD1  == 1 && MM2 == MM1)
 {
  printf("\n Hurreey 🎉🎉 , tommorrow is your birthday 🎂  ");
  printf("\nwhishing you a happy birthday🎂 in advanced");
 }
- else  if(DD1 - DD2 > 1 && MM2 == MM1 ) 
+ else  if(DD2 - DD1 > 1 && MM2 == MM1 ) 
  {
  printf("\nHurreey , after % d days is your  birthday\n" , DD1 - DD2 );
  printf("\twhishing you a happy birthday🎂 in advanced");
