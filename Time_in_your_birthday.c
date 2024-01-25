@@ -3,6 +3,7 @@
 //THEN  ENTER TODAY DATE IN DD MM YY
 
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
 int D1 , M1 , Y1 ;
