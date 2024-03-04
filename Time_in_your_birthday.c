@@ -10,7 +10,7 @@ int D1 , M1 , Y1 ;
 int D2 , M2 , Y2 ;
 
 
-printf("Enter your birthdate and today date in form of DD MM YYYY \n");
+printf("date should be in form of DD MM YYYY \n");
 
 
 printf("\nCurrent date :- ");
