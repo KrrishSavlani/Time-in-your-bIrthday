@@ -11,7 +11,7 @@ int main()
   int D2 , M2 , Y2 ;
 
 
- printf("date should be in form of DD MM YYYY \n");
+ printf("date should be in form of DD MM YYYY\n");
 
 
   printf("\nCurrent date :- ");
