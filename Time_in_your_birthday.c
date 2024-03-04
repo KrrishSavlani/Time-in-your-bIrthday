@@ -63,7 +63,7 @@ else if (M1 - M2 > 1)
   }
      
     
-if (D2 - D1  == 1 && M2 == M1)
+if (D2 - D1  == -1 && M2 == M1)
 {
  printf("\n Hurreey 🎉🎉 , tommorrow is your birthday 🎂  ");
  printf("\nwhishing you a happy birthday🎂 in advanced");
