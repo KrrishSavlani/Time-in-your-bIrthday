@@ -5,23 +5,25 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
-int D1 , M1 , Y1 ;
-int D2 , M2 , Y2 ;
+int main() 
+{
+  int D1 , M1 , Y1 ;
+  int D2 , M2 , Y2 ;
 
 
-printf("date should be in form of DD MM YYYY \n");
+ printf("date should be in form of DD MM YYYY \n");
 
 
-printf("\nCurrent date :- ");
-scanf("%d %d %d" , &D2 ,&M2 ,&Y2);
+  printf("\nCurrent date :- ");
+  scanf("%d %d %d" , &D2 ,&M2 ,&Y2);
 
-printf("Your birthdate :- ");
-scanf("%d %d %d" , &D1 ,&M1 ,&Y1);
+  printf("Your birthdate :- ");
+  scanf("%d %d %d" , &D1 ,&M1 ,&Y1);
 
 
-if( D2 == D1 && M2 == M1 )
-   { printf("\n 🎉 WHISHING YOU A VERY HAPPY Birthday 🎉🎂") ;
+  if( D2 == D1 && M2 == M1 )
+   {
+     printf("\n 🎉 WHISHING YOU A VERY HAPPY Birthday 🎉🎂") ;
    }
     
       /* like 7 , 8 , 9 , 10 , 11 , 12 > 6*/
@@ -33,15 +35,16 @@ if( D2 == D1 && M2 == M1 )
       12 -(m2 - m1) */
       
      
-else  if (  M2 > M1)
-{ printf("\n →     your birthday🎂 will be celebrated in  next %d months " ,     12 - M2 + M1); 
-} 
+  else  if (  M2 > M1)
+  { 
+   printf("\n →     your birthday🎂 will be celebrated in  next %d months " ,     12 - M2 + M1); 
+  } 
 
-else if (  M1 - M2 == 1)
-{ printf("\n  → your birthday is coming in next 1 month\n Happy birthday in 1 month advance 🎉🎂  " );
-} 
+  else if (  M1 - M2 == 1)
+  { printf("\n  → your birthday is coming in next 1 month\n Happy birthday in 1 month advance 🎉🎂" );
+  } 
 
-else if (M1 - M2 > 1)
+  else if (M1 - M2 > 1)
   { printf("\n  → your birthday is coming in next %d months \n Happy birthday in  %d month advance 🎉🎂" ,  M1 - M2 , M1 - M2);
   } 
 
@@ -63,11 +66,12 @@ else if (M1 - M2 > 1)
   }
      
     
-if (D2 - D1  == -1 && M2 == M1)
-{
- printf("\n Hurreey 🎉🎉 , tommorrow is your birthday 🎂  ");
+  if (D2 - D1  == -1 && M2 == M1)
+  {
+   printf("\n Hurreey 🎉🎉 , tommorrow is your birthday 🎂  ");
  printf("\nwhishing you a happy birthday🎂 in advanced");
-}
+  }
+
  else  if(D1 - D2 > 1 && M2 == M1 ) 
  {
  printf("\nHurreey , in just  next %d days there will be celebrated your  birthday\n" , D1 - D2 );
