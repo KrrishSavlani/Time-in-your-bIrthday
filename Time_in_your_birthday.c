@@ -51,7 +51,7 @@ else if (M1 - M2 > 1)
 
  if( D2 - D1 == 1  && M2 == M1 )
   {
-     printf(" oppps! your birthday gone %d day ago.\n" ,      D2 - D1);
+     printf(" oppps! your birthday just gone yesterday.\n" ,      D2 - D1);
       printf("🎉 Wishing you a belated happy birthday 🎉🎂 ");
   }
       
