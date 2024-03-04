@@ -68,9 +68,9 @@ if (D2 - D1  == -1 && M2 == M1)
  printf("\n Hurreey 🎉🎉 , tommorrow is your birthday 🎂  ");
  printf("\nwhishing you a happy birthday🎂 in advanced");
 }
- else  if(D2 - D1 > 1 && M2 == M1 ) 
+ else  if(D1 - D2 > 1 && M2 == M1 ) 
  {
- printf("\nHurreey , after % d days is your  birthday\n" , D1 - D2 );
+ printf("\nHurreey , after %d days is your  birthday\n" , D1 - D2 );
  printf("\twhishing you a happy birthday🎂 in advanced");
   }
     return 0;
